@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    text-align: justify;
+
+}
+
+h1{
+    color: #A4F03C;
+}
+h2{
+    color: #4261C6;
+}
+
+#titulo-principal{
+   background-color: darkgoldenrod;
+   text-align: center;
+}
+
+.basico{
+    color: greenyellow;
+}
+
+.intermediario{
+    color: orange;
+}
+.avancado{
+    color: red;
+}
+.destaque{
+    background-color: rgb(120, 120, 255);
+}

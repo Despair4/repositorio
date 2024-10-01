@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserir Audio</title>
+</head>
+<body>
+    <h1>INSERINDO ÁUDIO</h1>
+    <p>
+        Atributos da tag audio
+        <br>
+        metadata: vai carregar as informações do audio (tempo, nome, etc)
+        <br>
+        none: não vai carregar o audio até que seja ativado
+    </p>
+    <h3>Audio 1</h3>
+
+    <audio src="Mídia/made-in-heaven-official-lyric-video.mp3" preload="auto" controls></audio>
+
+    <h3>Audio 2</h3>
+
+    <audio  preload="metadata" controls>
+        <source src="Mídia/another-one-bites-the-dust-official-video.mp3" type="audio/mp3">
+        <source src="Mídia/made-in-heaven-official-lyric-video.mp3" type="audio/mp3">
+    </audio>
+
+</body>
+</html>
