@@ -13,7 +13,7 @@
     align-items: center;
     background-image: linear-gradient(to left,red,green, blue);
     background-size: 500% 100%;
-    animation:degradeanimado 1s infinite;
+    animation:degradeanimado 3s infinite;
 }
 .gradient-box h1{
     color: azure;
