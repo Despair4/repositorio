@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+/* DECLARANDO VARIÁVEIS*/
+
+:root{
+    --fontetitulos:"Edu AU VIC WA NT Guides", cursive;
+    --fontetexto: "Dancing Script", cursive;
+    --corbody: #FFBC0D;
+    --cortitulos: #DB0007;
+
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    max-width: 100%;
+    margin: auto;
+}
+
+.nav1{
+    margin-top: -28px;
+    display: flex; /* habilitando o flexbox */
+    flex-wrap: wrap; /*Quebrando a linha se necessario*/
+    height: 24%;
+    margin-left: 4px;
+    margin-right: 10px;
+    font-family: var(--fontetitulos);
+    gap: 2%;
+    justify-content: center;
+}
+
+header h1 a{
+    text-decoration: none;
+    text-align: center;
+    color: var(--cortitulos);
+}
+
+header h1 {
+    font-family: var(--fontetitulos);
+    font-size: 4em;
+    color: var(--cortitulos);
+    font-weight: bold;
+    margin-top: 20px;
+    border-bottom: solid var(--cortitulos) 2px;
+    text-align: center;
+}
+
+header nav a{
+    display: block;
+    color: var(--cortitulos);
+    font-size: 1.2em;
+}
+
+header .nav1 a:hover{
+    font-style: italic;
+    color: #bb0006;
+}
+
+.nav2{
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4%;
+    text-align: center;
+    background-color: #FFBC0D;
+}
+
+nav img{
+    width: 100%;
+    max-width: 300px;
+    object-fit: cover;
+    text-decoration: none;
+}
+
+.img-container{
+    flex: 1 1 150px;
+    max-width: 300px;
+    text-decoration: none;
+}
+
+div a p{
+    color: var(--cortitulos);
+}
+
+div a {
+    text-decoration: none;
+}
